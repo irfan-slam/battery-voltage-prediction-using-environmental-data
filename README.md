@@ -10,6 +10,24 @@ This project develops a machine learning model to predict battery voltage using 
 The goal is to support **predictive maintenance for Automatic Weather Stations (AWS)**.
 
 ---
+## Dataset
+
+A sample dataset is provided in:
+
+`data/Batt_Sample.csv`
+
+This dataset includes environmental parameters used to predict battery voltage:
+- temperature (°C)
+- humidity (%)
+- solar radiation (W/m²)
+- voltage (V)
+
+Notes:
+- This is a cleaned subset of the original dataset
+- Provided for reproducibility
+- Missing values have been handled
+
+To use your own data, replace the file with the same format.
 
 ## Methodology
 
